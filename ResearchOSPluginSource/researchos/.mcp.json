@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "researchos": {
+      "command": "/opt/homebrew/bin/node",
+      "args": [
+        "/Users/zongqige/.codex/.chatgpt-projects/g-p-6aaa08d5d4d08191bdc3e9c86d363ca4/ResearchOSMCP/src/server.mjs",
+        "--stdio"
+      ],
+      "cwd": "/Users/zongqige/.codex/.chatgpt-projects/g-p-6aaa08d5d4d08191bdc3e9c86d363ca4/ResearchOSMCP",
+      "enabled": true,
+      "startup_timeout_sec": 15,
+      "tool_timeout_sec": 120
+    }
+  }
+}

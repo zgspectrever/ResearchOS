@@ -1,0 +1,17 @@
+{
+  "name": "researchos-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local MCP bridge for ResearchOS",
+  "scripts": {
+    "start": "node src/server.mjs --http",
+    "start:stdio": "node src/server.mjs --stdio",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.30.0",
+    "express": "5.2.1",
+    "zod": "4.6.5"
+  }
+}

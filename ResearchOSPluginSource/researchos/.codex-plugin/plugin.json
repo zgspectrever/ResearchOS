@@ -1,0 +1,27 @@
+{
+  "name": "researchos",
+  "version": "0.1.0",
+  "description": "Connect GPT to the local ResearchOS research library through MCP.",
+  "author": {
+    "name": "ResearchOS"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ResearchOS",
+    "shortDescription": "Read and write your local research workspace.",
+    "longDescription": "ResearchOS connects GPT to your local research questions, paper cards, evidence, and Markdown drafts. Reads stay local until a tool is used; write tools are explicit and auditable.",
+    "developerName": "ResearchOS",
+    "category": "Productivity",
+    "capabilities": ["Research Library", "Markdown Writing", "Evidence Graph"],
+    "defaultPrompt": [
+      "总结我的 ResearchOS 工作区，并建议今天最值得推进的一步。",
+      "检索与当前研究问题相关的论文卡片和证据。",
+      "把这段回答追加到我指定的 Markdown 文稿。"
+    ],
+    "brandColor": "#4F7CAC",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  },
+  "mcpServers": "./.mcp.json",
+  "apps": "./.app.json"
+}

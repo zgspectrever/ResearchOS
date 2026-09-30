@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Swift/Xcode build output
+.build/
+build/
+dist/
+*.xcuserstate
+DerivedData/
+
+# JavaScript dependencies and local tooling
+ResearchOSMCP/node_modules/
+.wrangler/
+.cache/
+
+# Local user data and credentials
+*.jsonl
+.env
+.env.*
+!.env.example
+
+# Temporary generated files
+*.log
+*.tmp
